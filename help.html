@@ -1,0 +1,78 @@
+<html>
+	<head> 
+	<link 			rel="stylesheet" 
+					type="text/css" 
+					href="estilos.css">
+	</head>
+
+	<body id="bg">
+		<title>Help </title>
+		<h1 align="center" id="linha"><b> Me Ajuda </b> </h1>
+		<hr>
+		<div align="center">
+		    <table align="center">
+				<th>
+						<select name="tipo" id="tipo"> 
+							<option value="v" selected> Vendedor </option>
+							<option value="c" selected> Cliente </option>
+						</select>
+				</th>
+				<tr></tr>
+				<th>
+						<select name="assunto" id="assunto">
+							<option value="p" selected> Perfil </option>
+							<option value="o" selected> Orcamento </option>
+							<option value="ou" selected> Outro </option>
+						</select> 
+				</th>
+				
+				<th>
+					<form align="center" action="gravaduvida.php" method="post" enctype="multipart/form-data">
+					    <input type="image" id="formulario" src="imagens/search.png" width="25px">
+						<input type="text"  name="duvida" maxlength="200" value="Qual a Sua duvida?">
+						<input type="text"  name="link" maxlength="200" value="Qual o link do video?">
+						
+				</th>
+				<tr></tr>
+				<th>
+					
+						<input type="reset" value="Limpar Campos">
+					</form>
+				</th>
+			</table>
+		</div>
+		
+		
+		<div>
+		<h2 id="linha" align="center">	<b>Dúvidas Frequentes </b> </h2>
+		<table align="center"  id="submenu">
+
+				<tr></tr>
+				<hr>
+				<th align="left"><h3><b>Vendedor</b></h3> </th>
+				<tr></tr>
+				<th>Perfil </th>
+				<tr></tr>
+				<th>Compartilamento de Produtos </th>
+				<tr></tr>
+				<th>Orçamento</th>
+			</table>
+				<hr>
+			<table align="center" id="submenu">
+				<th align="left" id="lado"><h3><b>Dúvidas do seu cliente</b></h3></th>
+				<tr></tr>
+				<th>Link </th>
+				<tr></tr>
+				<th>Aplicativo </th>
+				
+
+			</table>	
+			<form id="submenu" align="center">
+				Para ver suas duvidas <a href="listaDuvidas.php"> clique aqui </a>
+			
+			</form>
+			
+		</div>
+	</body>
+
+</html>

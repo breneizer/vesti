@@ -1,0 +1,75 @@
+
+#fundo {
+	background-image:url(imagens/bannerfundo.jpg);
+	height: 100px;
+}
+
+
+
+#menu{
+	background-image:url(imagens/fundo1.jpg);
+	background-attachment: fixed;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-color: #000;
+	text-decoration:none;
+	
+
+}
+
+#submenu{
+		color: #FFFFFF;
+		border : none;
+		text-decoration:none;
+		text-align: center-right; 
+		
+}
+
+#img {
+	
+	float: right;
+	background-repeat: no-repeat;
+	color: #FFFFFF;
+
+	
+}
+
+#a {
+	color: #FFFFFF;
+	text-decoration:none;
+	text-align: center; 
+}
+
+#linha {
+	color: #FFFFFF;
+	border: none;
+}
+
+#divsao{
+		float: left;
+		width: 500px;
+		height: 100px;
+		padding: 60px;
+
+}
+
+#table{
+	text-align: right;
+	
+	
+}
+
+#bg {
+	background-image:url(imagens/fundo1.jpg);
+}
+
+th {
+	text-align: left;
+	
+}
+
+#lado {
+	padding:10 px;
+	float: left;
+	width: 200px;
+}
